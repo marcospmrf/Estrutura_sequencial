@@ -3,7 +3,7 @@ package exe02;
 import java.util.Scanner;
 import java.lang.Math;
 
-public class exe02 {
+public class Exe02 {
 
 	public static void main(String[] args) {
 	

@@ -7,18 +7,18 @@ public class Exe03 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		int A;
-		int B;
-		int C;
-		int D;
+		int a;
+		int b;
+		int c;
+		int d;
 		int diferenca;
 		
-		A = sc.nextInt();
-		B = sc.nextInt();
-		C = sc.nextInt();
-		D = sc.nextInt();
+		a = sc.nextInt();
+		b = sc.nextInt();
+		c = sc.nextInt();
+		d = sc.nextInt();
 		
-		diferenca = A * B - C * D;
+		diferenca = a * b - c * d;
 		
 		System.out.println("DIFERENCA = " + diferenca);
 		

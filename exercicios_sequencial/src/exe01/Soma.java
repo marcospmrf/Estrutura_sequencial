@@ -2,7 +2,7 @@ package exe01;
 
 import java.util.Scanner;
 
-public class soma {
+public class Soma {
 
 	public static void main(String[] args) {
 		

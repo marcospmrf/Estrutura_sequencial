@@ -8,7 +8,8 @@ public class Exe05 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-         int cod1, cod2, qt1, qt2;
+         int cod1, cod2;
+         int qt1, qt2;
          double preco1, preco2, total;
          
          cod1 = sc.nextInt();

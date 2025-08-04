@@ -8,17 +8,17 @@ public class Exe06 {
 
 		Scanner sc = new Scanner(System.in);
 		
-		double A, B, C, triangulo, circulo, trapezio, quadrado, retangulo;
+		double a, b, c, triangulo, circulo, trapezio, quadrado, retangulo;
 		
-		A = sc.nextDouble();
-		B = sc.nextDouble();
-		C = sc.nextDouble();
+		a = sc.nextDouble();
+		b = sc.nextDouble();
+		c = sc.nextDouble();
 		
-		triangulo = A * C / 2.0;
-		circulo = 3.14159 * C * C;
-		trapezio = (A + B) / 2.0 * C;
-		quadrado = B * B;
-		retangulo = A * B;
+		triangulo = a * c / 2.0;
+		circulo = 3.14159 * c * c;
+		trapezio = (a + b) / 2.0 * c;
+		quadrado = b * b;
+		retangulo = a * b;
 		
 		System.out.printf("TRIANGULO: %.3f%n", triangulo);
 		System.out.printf("CIRCULO: %.3f%n", circulo);
